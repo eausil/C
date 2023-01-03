@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+char name[20];
+printf("Enter your Name: ");
+scanf("%s",&name);
+printf("Hi %s we will be solving the area and circumference of a circle.\n",name);
+
+float radius, area, cf;
+printf("Please enter the value of the radius: \n");
+scanf("%f",&radius);
+
+area=3.14*radius*radius;
+printf("The area is %f", area);
+
+cf=2*3.14*radius;
+printf("\nThe circumference is %f",cf);
+
+return 0;
+}
